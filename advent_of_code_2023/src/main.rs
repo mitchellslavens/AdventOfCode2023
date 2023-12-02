@@ -1,7 +1,11 @@
 mod days;
 
 fn main() -> std::io::Result<()> {
+    println!("Day1:");
     let _ = days::day_01_a();
-    let _ = days::day_01_b(); // 54489 is wrong
+    let _ = days::day_01_b();
+    println!("Day2:");
+    let _ = days::day_02_a();
+    let _ = days::day_02_b();
     Ok(())
 }

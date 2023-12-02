@@ -3,7 +3,7 @@ use std::io::{BufReader, BufRead};
 use aho_corasick::AhoCorasick;
 
 pub fn day_01_a() -> std::io::Result<()> {
-    let file = match File::open("input.txt") {
+    let file = match File::open("inputs/input1.txt") {
         Ok(file) => file,
         Err(error) => {
             match error.kind() {
@@ -27,7 +27,7 @@ pub fn day_01_a() -> std::io::Result<()> {
 }
 
 pub fn day_01_b() -> std::io::Result<()> {
-    let file = match File::open("input.txt") {
+    let file = match File::open("inputs/input1.txt") {
         Ok(file) => file,
         Err(error) => {
             match error.kind() {
