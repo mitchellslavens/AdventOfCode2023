@@ -7,5 +7,8 @@ fn main() -> std::io::Result<()> {
     println!("Day2:");
     let _ = days::day_02_a();
     let _ = days::day_02_b();
+    println!("Day3:");
+    let _ = days::day_03_a();
+    let _ = days::day_03_b();
     Ok(())
-}
+} 
