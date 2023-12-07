@@ -79,7 +79,7 @@ pub fn day_04_b() -> std::io::Result<()> {
         total_cards += this_card;
         // Go through and increment the number of cards for each card index.
         while count > 0 {
-            *card_count_map.entry((i + count)).or_insert(0) += this_card;
+            *card_count_map.entry(i + count).or_insert(0) += this_card;
             count -= 1;
         }
         
