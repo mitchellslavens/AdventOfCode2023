@@ -1,5 +1,4 @@
 use std::fs::File;
-use std::cmp::min;
 use std::io::{BufReader, BufRead, Read};
 
 #[derive(Debug)]
