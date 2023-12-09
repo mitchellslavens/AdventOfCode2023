@@ -21,5 +21,8 @@ fn main() -> std::io::Result<()> {
     println!("Day7:");
     let _ = days::day_07_a();
     let _ = days::day_07_b();
+    println!("Day8:");
+    let _ = days::day_08_a();
+    let _ = days::day_08_b();
     Ok(())
 } 
